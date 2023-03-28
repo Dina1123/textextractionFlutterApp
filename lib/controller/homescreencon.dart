@@ -44,7 +44,7 @@ class UploadingImageControllerImp extends UploadingImageController {
         _imageFile.value = imageFile;
         _extractedText.value = recognisedText.text;
       } else {
-        Get.snackbar("Error", "Failed to select image");
+        Get.snackbar("Error", "Faileeeeed to select image");
       }
     } catch (e) {
       Get.snackbar("Error= $e", "Failed to select image");

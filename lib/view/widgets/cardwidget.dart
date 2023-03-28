@@ -64,7 +64,7 @@ class CustomCard extends StatelessWidget {
                     );
                     Get.snackbar(
                       "Success",
-                      "Image Saved Successfully",
+                      "Text Copied Successfully",
                       icon: const Icon(
                         Icons.check_box_rounded,
                         color: AppColors.greenColor,
